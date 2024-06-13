@@ -76,9 +76,6 @@ def predict_churn():
         'prediction': prediction.tolist(),
         'prediction_proba': prediction_proba.tolist()
     })
-    return jsonify({'error': 'Invalid data'})
-
-
 
 if __name__ == '__main__':
 
